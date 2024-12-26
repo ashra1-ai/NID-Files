@@ -1,5 +1,10 @@
-2024-12-26 12:11:45.123456 [] [1:1234567:1] ET POLICY Suspicious DNS Query [] [Classification: Attempted Reconnaissance] [Priority: 3] {UDP} 192.168.1.105:53 -> 8.8.8.8:53 ([invalid URL removed])
-2024-12-26 12:12:00.234567 [] [1:2345678:2] ET SCAN Port Scan [] [Classification: Attempted Reconnaissance] [Priority: 2] {TCP} 192.168.1.106:49152 -> 10.0.0.54:21,22,80,443
-2024-12-26 12:12:30.345678 [] [1:3456789:3] ET DROP File Download Attempt [] [Classification: Attempted Data Exfiltration] [Priority: 1] {TCP} 192.168.1.107:50000 -> 10.0.0.55:80 ([invalid URL removed])
-2024-12-26 12:13:00.456789 [] [1:4567890:4] ET POLICY Unusual Process Execution [] [Classification: Possible Malware Activity] [Priority: 2] {SYSTEM} User:john.doe Process:cmd.exe /c powershell.exe -windowstyle hidden
-2024-12-26 12:13:30.567890 [] [1:5678901:5] ET DROP Tor Traffic Detected [**] [Classification: Attempted Evasion] [Priority: 3] {TCP} 192.168.1.108:443 -> 142.250.186.22 (tor exit node)
+2024-12-16 10:15:23 [INFO] Detected suspicious network scan from IP 192.168.1.100
+2024-12-16 10:16:45 [WARN] Possible brute force attempt on SSH service
+2024-12-16 10:18:12 [ALERT] Malware signature detected: Trojan.Generic.123456
+2024-12-16 10:20:30 [INFO] Unusual outbound connection to IP 203.0.113.42
+2024-12-16 10:22:55 [WARN] Multiple failed login attempts detected
+2024-12-16 10:25:17 [ALERT] Command and control (C2) traffic identified
+2024-12-16 10:27:40 [INFO] Large data transfer to external IP 198.51.100.75
+2024-12-16 10:30:05 [WARN] Potential data exfiltration attempt detected
+2024-12-16 10:32:28 [ALERT] Ransomware behavior observed: mass file encryption
+2024-12-16 10:35:50 [INFO] Unusual process spawned with high privileges

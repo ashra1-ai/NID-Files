@@ -1,0 +1,10 @@
+12/20/2024-10:00:00.123456 [**] [1:2000001:1] ET TROJAN Generic Trojan Activity [**] [Classification: Trojan Activity] [Priority: 2] [signature_severity Medium] {TCP} 192.168.1.10:54321 -> 10.0.0.1:80
+12/20/2024-10:05:00.123456 [**] [1:2000002:2] ET RANSOMWARE STOP Ransomware Communication [**] [Classification: Ransomware] [Priority: 1] [signature_severity Critical] {TCP} 192.168.1.11:4444 -> 172.16.0.1:443
+12/20/2024-10:10:00.123456 [**] [1:2000003:3] ET BOTNET Mirai Bot Activity [**] [Classification: Botnet] [Priority: 2] [signature_severity Medium] {UDP} 192.168.1.12:6667 -> 203.0.113.1:6667
+12/20/2024-10:15:00.123456 [**] [1:2000004:4] ET SCAN Port Scan - SYN/ACK [**] [Classification: Scanning] [Priority: 3] [signature_severity Low] {TCP} 10.0.0.2:443 -> 192.168.1.13:53
+12/20/2024-10:20:00.123456 [**] [1:2000005:5] ET POLICY Unusual Destination Port [**] [Classification: Policy Violation] [Priority: 3] [signature_severity Low] {TCP} 192.168.1.14:8080 -> 8.8.8.8:53
+12/20/2024-10:25:00.123456 [**] [1:2000006:6] ET MALWARE Emotet C&C Communication [**] [Classification: Command and Control] [Priority: 1] [signature_severity High] {TCP} 192.168.1.15:445 -> 198.51.100.22:445
+12/20/2024-10:30:00.123456 [**] [1:2000007:7] ET EXPLOIT MS17-010 EternalBlue Exploit Attempt [**] [Classification: Exploit] [Priority: 1] [signature_severity Critical] {TCP} 10.0.0.3:445 -> 192.168.1.16:445
+12/20/2024-10:35:00.123456 [**] [1:2000008:8] ET DNS DNS Amplification Attack [**] [Classification: DoS] [Priority: 2] [signature_severity Medium] {UDP} 192.168.1.17:53 -> 8.8.8.8:53
+12/20/2024-10:40:00.123456 [**] [1:2000009:9] ET P2P BitTorrent P2P File Sharing [**] [Classification: P2P] [Priority: 3] [signature_severity Low] {TCP} 192.168.1.18:6881 -> 10.0.0.4:6881
+12/20/2024-10:45:00.123456 [**] [1:2000010:10] ET POLICY Unusual Source Port [**] [Classification: Policy Violation] [Priority: 3] [signature_severity Low] {TCP} 192.168.1.19:1337 -> 8.8.8.8:80

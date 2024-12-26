@@ -2,7 +2,7 @@ import re
 from urllib.parse import unquote_plus
 
 
-class SuricataSimulator:
+class SuricataSimulator :
 
     def __init__(self):
         self.rules = []
